@@ -4,7 +4,7 @@ import React from 'react';
 import { Container, Group, Title, Select, Burger, Anchor, Drawer, Stack, Divider, ActionIcon, useMantineColorScheme, Text, ComboboxItem } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { useTranslations, useLocale } from 'next-intl';
-import { Link, usePathname, useRouter } from '@/i18n/navigation';
+import { usePathname, useRouter } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 import { IconSun, IconMoon } from '@tabler/icons-react';
 import { PLFlag, GBFlag } from 'mantine-flagpack';
