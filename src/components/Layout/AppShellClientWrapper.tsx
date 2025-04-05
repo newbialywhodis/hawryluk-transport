@@ -12,8 +12,7 @@ type Props = {
 export function AppShellClientWrapper({ children }: Props) {
   return (
     <AppShell
-      header={{ height: 60 }}
-      padding="md"
+      header={{ height: 65 }}
     >
       <AppShell.Header>
         <Header />
