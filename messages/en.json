@@ -14,6 +14,11 @@
     "navMap": "Location",
     "navContact": "Contact"
   },
+  "HeroSection": {
+    "mainTitle": "Domestic & International Transport",
+    "gradientSubtitle": "Reliably and On Time",
+    "callButton": "Call now"
+  },
   "HomePage": {
     "welcomeTitle": "Welcome - ROBERT HAWRYLUK TRANSPORT COMPANY",
     "welcomeText": "We offer reliable transport services throughout the European Union. We specialize in transporting goods using modern equipment (truck and trailer). We also carry out orders using the client's equipment.",

@@ -7,6 +7,7 @@ export async function HeroSection() {
   const t = await getTranslations('HomePage');
   const tContact = await getTranslations('ContactDetails');
   const tHeader = await getTranslations('Header');
+  const tHero = await getTranslations('HeroSection');
 
   const phoneNumber = tContact('phone');
 
@@ -14,14 +15,14 @@ export async function HeroSection() {
     <Box className={classes.wrapper}>
       <Container size={750} className={classes.inner}>
         <h1 className={classes.title}>
-          Transport Krajowy i Międzynarodowy
+          {tHero('mainTitle')}
           <Text component="span" className={classes.gradientText} inherit ml="md">
-             Solidnie i na Czas
+             {tHero('gradientSubtitle')}
           </Text>{' '}
           - {tHeader('companyName')}
         </h1>
 
-        <Text className={classes.description} color="dimmed">
+        <Text className={classes.description} c="dimmed">
           {t('welcomeText')}
         </Text>
 
@@ -44,7 +45,7 @@ export async function HeroSection() {
             className={classes.control}
             leftSection={<IconPhone size={20} />}
           >
-            Zadzwoń teraz
+            {tHero('callButton')}
           </Button>
         </Group>
       </Container>

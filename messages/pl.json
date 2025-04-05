@@ -14,6 +14,11 @@
     "navMap": "Lokalizacja",
     "navContact": "Kontakt"
   },
+  "HeroSection": {
+    "mainTitle": "Transport Krajowy i Międzynarodowy",
+    "gradientSubtitle": "Solidnie i na Czas",
+    "callButton": "Zadzwoń teraz"
+  },
   "HomePage": {
     "welcomeTitle": "Witamy - FIRMA TRANSPORTOWA ROBERT HAWRYLUK",
     "welcomeText": "Oferujemy niezawodne usługi transportowe na terenie całej Unii Europejskiej. Specjalizujemy się w transporcie towarów przy użyciu nowoczesnego taboru (ciągnik siodłowy z naczepą). Realizujemy również zlecenia na sprzęcie powierzonym przez klienta.",
