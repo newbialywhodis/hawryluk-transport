@@ -1,4 +1,4 @@
-import { Button, Container, Group, Text, Box } from '@mantine/core';
+import { Button, Container, Group, Text, Box, Title } from '@mantine/core';
 import { getTranslations } from 'next-intl/server';
 import classes from './HeroSection.module.css';
 import { IconPhone } from '@tabler/icons-react';
@@ -14,13 +14,17 @@ export async function HeroSection() {
   return (
     <Box className={classes.wrapper}>
       <Container size={750} className={classes.inner}>
-        <h1 className={classes.title}>
-          {tHero('mainTitle')}
-          <Text component="span" className={classes.gradientText} inherit ml="md">
-             {tHero('gradientSubtitle')}
+        <Title order={1} className={classes.title}>
+          <Text component="span" inherit>
+            {tHero('mainTitle')}
           </Text>{' '}
-          - {tHeader('companyName')}
-        </h1>
+          <Text component="span" className={classes.gradientText} inherit>
+            {tHero('gradientSubtitle')}
+          </Text>{' '}
+          <Text component="span" inherit className={classes.companyNameSegment}>
+            - {tHeader('companyName')}
+          </Text>
+        </Title>
 
         <Text className={classes.description} c="dimmed">
           {t('welcomeText')}
