@@ -1,4 +1,4 @@
-import { Paper, Text, Box } from '@mantine/core';
+import { Paper, Text } from '@mantine/core';
 import { getTranslations } from 'next-intl/server';
 import { ContactInfoList } from './ContactInfoList';
 import { ContactForm } from './ContactForm';
@@ -16,7 +16,6 @@ export async function ContactSection() {
           </Text>
           <ContactInfoList />
         </div>
-
         <div className={classes.form}>
           <Text fz="lg" fw={700} className={classes.title}>
             {t('formTitle')}

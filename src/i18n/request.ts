@@ -10,6 +10,10 @@ export default getRequestConfig(async ({ requestLocale }): Promise<{locale: stri
     ? requested
     : routing.defaultLocale;
 
+  // if (!hasLocale(routing.locales, requested)) {
+  //   notFound();
+  // }
+
   return {
     locale,
     messages: (await import(`../../messages/${locale}.json`)).default

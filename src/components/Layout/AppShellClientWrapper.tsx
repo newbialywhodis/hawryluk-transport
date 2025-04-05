@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { AppShell, Box } from '@mantine/core';
+import { AppShell } from '@mantine/core';
 import { Header } from './Header';
 import { Footer } from './Footer';
 
@@ -18,9 +18,7 @@ export function AppShellClientWrapper({ children }: Props) {
       <AppShell.Header>
         <Header />
       </AppShell.Header>
-
       <AppShell.Main>{children}</AppShell.Main>
-
       <Footer />
     </AppShell>
   );

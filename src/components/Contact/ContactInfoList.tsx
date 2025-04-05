@@ -1,4 +1,4 @@
-import { Stack, Group, Text, ThemeIcon, Anchor, Box } from '@mantine/core';
+import { Stack, Text, ThemeIcon, Anchor, Box } from '@mantine/core';
 import { getTranslations } from 'next-intl/server';
 import { IconMapPin, IconPhone, IconReceipt, IconBuildingBank, IconNumber } from '@tabler/icons-react';
 import classes from './ContactIcons.module.css';

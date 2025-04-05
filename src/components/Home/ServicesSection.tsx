@@ -1,29 +1,13 @@
-import { Card, Container, Group, SimpleGrid, Text, Title, rem } from '@mantine/core';
+import { Card, Container, SimpleGrid, Text, Title, rem } from '@mantine/core';
 import { IconTruck, IconMapPins, IconUsers, IconCertificate } from '@tabler/icons-react';
 import { getTranslations } from 'next-intl/server';
 import classes from './ServicesSection.module.css';
 
 const servicesData = [
-  {
-    icon: IconTruck,
-    titleKey: 'service1Title',
-    descriptionKey: 'service1Desc',
-  },
-  {
-    icon: IconMapPins,
-    titleKey: 'service2Title',
-    descriptionKey: 'service2Desc',
-  },
-  {
-    icon: IconUsers,
-    titleKey: 'service3Title',
-    descriptionKey: 'service3Desc',
-  },
-  {
-    icon: IconCertificate,
-    titleKey: 'service4Title',
-    descriptionKey: 'service4Desc',
-  },
+  { icon: IconTruck, titleKey: 'service1Title', descriptionKey: 'service1Desc' },
+  { icon: IconMapPins, titleKey: 'service2Title', descriptionKey: 'service2Desc' },
+  { icon: IconUsers, titleKey: 'service3Title', descriptionKey: 'service3Desc' },
+  { icon: IconCertificate, titleKey: 'service4Title', descriptionKey: 'service4Desc' },
 ];
 
 export async function ServicesSection() {
@@ -47,15 +31,12 @@ export async function ServicesSection() {
 
   return (
     <Container size="lg" py="xl" id="services">
-
       <Title order={2} className={classes.title} ta="center" mt="sm">
         {t('servicesSectionTitle')}
       </Title>
-
       <Text className={classes.description} ta="center" mt="md">
         {t('servicesSectionDesc')}
       </Text>
-
       <SimpleGrid cols={{ base: 1, sm: 2, lg: 4 }} spacing="xl" mt={50}>
         {features}
       </SimpleGrid>
