@@ -1,17 +1,12 @@
 .header {
-  padding-top: var(--mantine-spacing-md);
-  padding-bottom: var(--mantine-spacing-md);
-  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-6));
-  position: sticky;
-  top: 0;
   z-index: 100;
 }
 
 .inner {
+  height: rem(60px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
 }
 
 .link {

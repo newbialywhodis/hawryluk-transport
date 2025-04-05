@@ -1,7 +1,21 @@
 'use client';
 
 import React from 'react';
-import { Container, Group, Title, Select, Burger, Anchor, Drawer, Stack, Divider, ActionIcon, useMantineColorScheme, Text, ComboboxItem } from '@mantine/core';
+import {
+  Container,
+  Group,
+  Select,
+  Burger,
+  Anchor,
+  Drawer,
+  Stack,
+  Divider,
+  ActionIcon,
+  useMantineColorScheme,
+  Text,
+  ComboboxItem,
+  Image as MantineImage,
+} from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { useTranslations, useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/navigation';
@@ -85,14 +99,18 @@ export function Header() {
 
   return (
     <header className={classes.header}>
-      <Container size="xl" className={classes.inner}>
-        <Title order={1} size="h3">
-          {t('companyName')}
-        </Title>
+      <Container size="xl" className={classes.inner} py="md">
+        <MantineImage
+          src="/logo.png"
+          alt={t('companyName')}
+          h={50}
+          w="auto"
+          fit="contain"
+        />
 
-        <Group gap={15} visibleFrom="sm">
-           {items}
-           <Select
+        <Group gap={15} visibleFrom="sm" align="center" wrap="nowrap">
+          {items}
+          <Select
             size="xs"
             value={currentLocale}
             onChange={handleLocaleChange}
@@ -102,46 +120,54 @@ export function Header() {
             aria-label="Change language"
             checkIconPosition="right"
             renderOption={renderSelectOption}
-           />
+          />
           {ThemeSwitcher}
         </Group>
 
-         <Burger
-            opened={opened}
-            onClick={toggle}
-            hiddenFrom="sm"
-            size="sm"
-            aria-label="Toggle navigation"
+        <Burger
+          opened={opened}
+          onClick={toggle}
+          hiddenFrom="sm"
+          size="sm"
+          aria-label="Toggle navigation"
         />
       </Container>
 
       <Drawer
-            opened={opened}
-            onClose={close}
-            title={t('companyName')}
-            hiddenFrom="sm"
-            zIndex={1000000}
-            padding="md"
-            size="md"
-      >
-         <Stack gap="md">
-            {items}
-            <Divider my="sm" />
-            <Select
-                label="Język / Language"
-                value={currentLocale}
-                onChange={handleLocaleChange}
-                data={selectData}
-                allowDeselect={false}
-                aria-label="Change language"
-                checkIconPosition="right"
-                renderOption={renderSelectOption}
-                comboboxProps={{ zIndex: 1000001 }}
+        opened={opened}
+        onClose={close}
+        title={
+            <MantineImage
+                src="/logo.png"
+                alt={t('companyName')}
+                h={40}
+                w="auto"
+                fit="contain"
             />
-            <Group justify='center' mt="md">
-                {ThemeSwitcher}
-            </Group>
-         </Stack>
+        }
+        hiddenFrom="sm"
+        zIndex={1000000}
+        padding="md"
+        size="md"
+      >
+        <Stack gap="md">
+          {items}
+          <Divider my="sm" />
+          <Select
+              label="Język / Language"
+              value={currentLocale}
+              onChange={handleLocaleChange}
+              data={selectData}
+              allowDeselect={false}
+              aria-label="Change language"
+              checkIconPosition="right"
+              renderOption={renderSelectOption}
+              comboboxProps={{ zIndex: 1000001 }}
+          />
+          <Group justify='center' mt="md">
+              {ThemeSwitcher}
+          </Group>
+        </Stack>
       </Drawer>
     </header>
   );
