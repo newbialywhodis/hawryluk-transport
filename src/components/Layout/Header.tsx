@@ -136,6 +136,7 @@ export function Header() {
                 aria-label="Change language"
                 checkIconPosition="right"
                 renderOption={renderSelectOption}
+                comboboxProps={{ zIndex: 1000001 }}
             />
             <Group justify='center' mt="md">
                 {ThemeSwitcher}
