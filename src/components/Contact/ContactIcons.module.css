@@ -1,0 +1,29 @@
+.contactWrapper {
+    display: flex;
+    align-items: center;
+    color: var(--mantine-color-white);
+}
+
+.iconWrapper {
+    margin-right: var(--mantine-spacing-md);
+}
+
+.contactTitle {
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+
+.contactDescription {
+    color: var(--mantine-color-white);
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+.contactDescription a {
+    color: inherit;
+    text-decoration: none;
+}
+ .contactDescription a:hover {
+    text-decoration: underline;
+}

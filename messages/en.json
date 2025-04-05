@@ -1,0 +1,81 @@
+{
+  "Metadata": {
+    "title": "ROBERT HAWRYLUK TRANSPORT COMPANY",
+    "description": "Professional transport services throughout the European Union. Domestic and international transport using truck and trailer.",
+    "keywords": "transport, freight forwarding, Robert Hawryluk, Gościeszyn, international transport, domestic transport, truck, trailer, EU, transport services"
+  },
+   "Schema": {
+     "companyName": "ROBERT HAWRYLUK TRANSPORT COMPANY",
+     "paymentAccepted": "Bank transfer"
+  },
+  "Header": {
+    "companyName": "ROBERT HAWRYLUK TRANSPORT COMPANY",
+    "navServices": "Services",
+    "navMap": "Location",
+    "navContact": "Contact"
+  },
+  "HomePage": {
+    "welcomeTitle": "Welcome - ROBERT HAWRYLUK TRANSPORT COMPANY",
+    "welcomeText": "We offer reliable transport services throughout the European Union. We specialize in transporting goods using modern equipment (truck and trailer). We also carry out orders using the client's equipment.",
+    "contactButton": "Contact Us",
+    "servicesTitle": "Our Services",
+    "servicesDesc": "We provide comprehensive transport services:",
+    "service1": "Domestic and international transport",
+    "service2": "Goods transport with truck and trailer",
+    "service3": "Execution of orders using client's equipment",
+    "service4": "We operate routes throughout the European Union",
+    "servicesSectionTitle": "Comprehensive Transport Services",
+    "servicesSectionDesc": "We specialize in domestic and international transport, adapting to your needs. We offer:",
+    "service1Title": "Domestic & EU Transport",
+    "service1Desc": "We carry out transports throughout Poland and the European Union, ensuring punctuality.",
+    "service2Title": "Modern Fleet",
+    "service2Desc": "We have a reliable truck and trailer that meet current standards.",
+    "service3Title": "On Client's Equipment",
+    "service3Desc": "We are flexible - we also undertake orders using equipment entrusted by the client.",
+    "service4Title": "Experience & Reliability",
+    "service4Desc": "Many years of driver experience guarantee cargo safety and professional service.",
+    "mapTitle": "Our Location",
+     "mapMarkerTitle": "ROBERT HAWRYLUK TRANSPORT COMPANY - Headquarters",
+    "contactTitle": "Contact",
+    "contactDesc": "Do you have questions? Need a quote? Contact us!",
+    "loadingMap": "Loading map..."
+  },
+  "Footer": {
+    "companyName": "ROBERT HAWRYLUK TRANSPORT COMPANY",
+    "addressLabel": "Address",
+    "nipLabel": "VAT ID",
+    "regonLabel": "REGON",
+    "phoneLabel": "Phone",
+    "bankAccountLabel": "Bank Account",
+    "bankName": "PKO BP",
+    "copyright": "© {year} {companyName}. All rights reserved."
+  },
+  "ContactDetails": {
+    "address": "Gościeszyn 23/7, 64-200 Gościeszyn, Poland",
+    "nip": "9231140651",
+    "regon": "383258397",
+    "phone": "+48 604 402 917",
+    "bankAccount": "PL48 1020 4144 0000 6802 0281 9639"
+  },
+  "ContactSection": {
+    "infoTitle": "Contact Information",
+    "formTitle": "Get in touch"
+  },
+    "ContactForm": {
+      "title": "Contact Form",
+      "nameLabel": "Name / Company",
+      "namePlaceholder": "Enter your name or company name",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "your@email.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Enter your message content...",
+      "submitButton": "Send message",
+      "validationRequired": "This field is required",
+      "validationEmail": "Invalid email address",
+      "sending": "Sending...",
+      "sendSuccessTitle": "Message sent!",
+      "sendSuccessMessage": "Thank you for contacting us. We will reply as soon as possible.",
+      "sendErrorTitle": "Sending Error",
+      "sendErrorMessage": "An error occurred while sending the message. Please try again later or contact us directly."
+  }
+}

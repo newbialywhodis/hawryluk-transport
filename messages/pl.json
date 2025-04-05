@@ -1,0 +1,81 @@
+{
+  "Metadata": {
+    "title": "FIRMA TRANSPORTOWA ROBERT HAWRYLUK",
+    "description": "Profesjonalne usługi transportowe na terenie całej Unii Europejskiej. Transport krajowy i międzynarodowy TIR z naczepą.",
+    "keywords": "transport, spedycja, Robert Hawryluk, Gościeszyn, transport międzynarodowy, transport krajowy, tir, naczepa, UE, usługi transportowe"
+  },
+  "Schema": {
+     "companyName": "FIRMA TRANSPORTOWA ROBERT HAWRYLUK",
+     "paymentAccepted": "Przelew bankowy"
+  },
+  "Header": {
+    "companyName": "FIRMA TRANSPORTOWA ROBERT HAWRYLUK",
+    "navServices": "Usługi",
+    "navMap": "Lokalizacja",
+    "navContact": "Kontakt"
+  },
+  "HomePage": {
+    "welcomeTitle": "Witamy - FIRMA TRANSPORTOWA ROBERT HAWRYLUK",
+    "welcomeText": "Oferujemy niezawodne usługi transportowe na terenie całej Unii Europejskiej. Specjalizujemy się w transporcie towarów przy użyciu nowoczesnego taboru (ciągnik siodłowy z naczepą). Realizujemy również zlecenia na sprzęcie powierzonym przez klienta.",
+    "contactButton": "Skontaktuj się z nami",
+    "servicesTitle": "Nasze Usługi",
+    "servicesDesc": "Świadczymy kompleksowe usługi transportowe:",
+    "service1": "Transport krajowy i międzynarodowy",
+    "service2": "Przewóz towarów ciągnikiem siodłowym z naczepą",
+    "service3": "Realizacja zleceń na sprzęcie klienta",
+    "service4": "Obsługujemy trasy w całej Unii Europejskiej",
+    "servicesSectionTitle": "Kompleksowe Usługi Transportowe",
+    "servicesSectionDesc": "Specjalizujemy się w transporcie krajowym i międzynarodowym, dostosowując się do Twoich potrzeb. Oferujemy:",
+    "service1Title": "Transport Krajowy i UE",
+    "service1Desc": "Realizujemy przewozy na terenie całej Polski oraz Unii Europejskiej, gwarantując terminowość.",
+    "service2Title": "Nowoczesny Tabor",
+    "service2Desc": "Dysponujemy niezawodnym ciągnikiem siodłowym z naczepą, spełniającym aktualne normy.",
+    "service3Title": "Na Sprzęcie Klienta",
+    "service3Desc": "Jesteśmy elastyczni - podejmujemy się również realizacji zleceń na sprzęcie powierzonym przez zleceniodawcę.",
+    "service4Title": "Doświadczenie i Niezawodność",
+    "service4Desc": "Wieloletnie doświadczenie kierowcy gwarantuje bezpieczeństwo ładunku i profesjonalną obsługę.",
+    "mapTitle": "Nasza Lokalizacja",
+    "mapMarkerTitle": "FIRMA TRANSPORTOWA ROBERT HAWRYLUK - Siedziba",
+    "contactTitle": "Kontakt",
+    "contactDesc": "Masz pytania? Potrzebujesz wyceny? Skontaktuj się z nami!",
+    "loadingMap": "Ładowanie mapy..."
+  },
+  "Footer": {
+    "companyName": "FIRMA TRANSPORTOWA ROBERT HAWRYLUK",
+    "addressLabel": "Adres",
+    "nipLabel": "NIP",
+    "regonLabel": "REGON",
+    "phoneLabel": "Telefon",
+    "bankAccountLabel": "Konto bankowe",
+    "bankName": "PKO BP",
+    "copyright": "© {year} {companyName}. Wszelkie prawa zastrzeżone."
+  },
+  "ContactDetails": {
+    "address": "ul. Gościeszyn 23/7, 64-200 Gościeszyn",
+    "nip": "9231140651",
+    "regon": "383258397",
+    "phone": "604 402 917",
+    "bankAccount": "PL48 1020 4144 0000 6802 0281 9639"
+  },
+  "ContactSection": {
+    "infoTitle": "Informacje kontaktowe",
+    "formTitle": "Napisz do nas"
+  },
+  "ContactForm": {
+    "title": "Formularz kontaktowy",
+    "nameLabel": "Imię i nazwisko / Firma",
+    "namePlaceholder": "Wpisz swoje imię lub nazwę firmy",
+    "emailLabel": "Adres e-mail",
+    "emailPlaceholder": "twoj@email.com",
+    "messageLabel": "Wiadomość",
+    "messagePlaceholder": "Wpisz treść wiadomości...",
+    "submitButton": "Wyślij wiadomość",
+    "validationRequired": "To pole jest wymagane",
+    "validationEmail": "Niepoprawny adres e-mail",
+    "sending": "Wysyłanie...",
+    "sendSuccessTitle": "Wiadomość wysłana!",
+    "sendSuccessMessage": "Dziękujemy za kontakt. Odpowiemy najszybciej jak to możliwe.",
+    "sendErrorTitle": "Błąd wysyłania",
+    "sendErrorMessage": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie później lub skontaktuj się bezpośrednio."
+  }
+}
