@@ -37,6 +37,10 @@ export function Header() {
   const currentLocale = useLocale();
   const { colorScheme, setColorScheme } = useMantineColorScheme();
 
+  const localeToLangName: Record<string, string> = {
+    pl: t('langPolish'),
+    en: t('langEnglish'),
+  };
 
   const handleLocaleChange = (newLocale: string | null) => {
     if (newLocale && newLocale !== currentLocale) {
@@ -73,7 +77,7 @@ export function Header() {
 
   const selectData = routing.locales.map((loc: string) => ({
       value: loc,
-      label: loc.toUpperCase()
+      label: localeToLangName[loc] || loc.toUpperCase()
   }));
 
   const renderSelectOption = ({ option }: { option: ComboboxItem }) => {
@@ -97,11 +101,14 @@ export function Header() {
       </ActionIcon>
   );
 
+  const logoSrc = colorScheme === 'dark' ? '/logo_darkmode.png' : '/logo.png';
+  const CurrentFlag = localeToFlagComponent[currentLocale as keyof typeof localeToFlagComponent];
+
   return (
     <header className={classes.header}>
       <Container size="xl" className={classes.inner} py="md">
         <MantineImage
-          src="/logo.png"
+          src={logoSrc}
           alt={t('companyName')}
           h={50}
           w="auto"
@@ -116,11 +123,14 @@ export function Header() {
             onChange={handleLocaleChange}
             data={selectData}
             allowDeselect={false}
-            style={{ width: 100 }}
+            style={{ width: 140 }}
             aria-label="Change language"
             checkIconPosition="right"
             renderOption={renderSelectOption}
-          />
+            leftSection={CurrentFlag ? <CurrentFlag w={20} /> : undefined}
+            leftSectionPointerEvents="none"
+            leftSectionWidth={45}
+           />
           {ThemeSwitcher}
         </Group>
 
@@ -137,13 +147,13 @@ export function Header() {
         opened={opened}
         onClose={close}
         title={
-            <MantineImage
-                src="/logo.png"
-                alt={t('companyName')}
-                h={40}
-                w="auto"
-                fit="contain"
-            />
+          <MantineImage
+              src={logoSrc}
+              alt={t('companyName')}
+              h={40}
+              w="auto"
+              fit="contain"
+          />
         }
         hiddenFrom="sm"
         zIndex={1000000}
@@ -163,6 +173,9 @@ export function Header() {
               checkIconPosition="right"
               renderOption={renderSelectOption}
               comboboxProps={{ zIndex: 1000001 }}
+              leftSection={CurrentFlag ? <CurrentFlag w={20} /> : undefined}
+              leftSectionPointerEvents="none"
+              leftSectionWidth={35}
           />
           <Group justify='center' mt="md">
               {ThemeSwitcher}

@@ -12,7 +12,9 @@
     "companyName": "ROBERT HAWRYLUK TRANSPORT COMPANY",
     "navServices": "Services",
     "navMap": "Location",
-    "navContact": "Contact"
+    "navContact": "Contact",
+    "langPolish": "Polish",
+    "langEnglish": "English"
   },
   "HeroSection": {
     "mainTitle": "Domestic & International Transport",
@@ -65,6 +67,28 @@
   "ContactSection": {
     "infoTitle": "Contact Information",
     "formTitle": "Get in touch"
+  },
+    "WhyUsSection": {
+      "title": "Why Choose Us?",
+      "p1Title": "Punctuality",
+      "p1Desc": "Always on time. We respect your schedule and ensure timely deliveries.",
+      "p2Title": "Experience",
+      "p2Desc": "Many years of practice in domestic and international transport guarantee professionalism.",
+      "p3Title": "Flexibility",
+      "p3Desc": "We carry out transport using our own fleet (truck + trailer) or on equipment entrusted by the client.",
+      "p4Title": "Safety",
+      "p4Desc": "We care for the entrusted cargo at every stage of transport, ensuring its complete safety."
+    },
+    "FaqSection": {
+      "title": "Frequently Asked Questions (FAQ)",
+      "q1": "What is the range of your services?",
+      "a1": "We provide transport services throughout Poland and all countries of the European Union.",
+      "q2": "What types of cargo can you transport?",
+      "a2": "We specialize in transporting goods on a curtain-sider trailer. Please contact us to discuss details for non-standard cargo.",
+      "q3": "Is transport on my equipment possible?",
+      "a3": "Yes, we are open to cooperation and also carry out orders using equipment entrusted by the client.",
+      "q4": "How can I get a transport quote?",
+      "a4": "The fastest way to get a quote is by contacting us by phone or via the contact form. Please provide details of the route (loading and unloading points) and cargo specifics."
   },
     "ContactForm": {
       "title": "Contact Form",

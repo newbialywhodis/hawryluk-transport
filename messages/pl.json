@@ -12,7 +12,9 @@
     "companyName": "FIRMA TRANSPORTOWA ROBERT HAWRYLUK",
     "navServices": "Usługi",
     "navMap": "Lokalizacja",
-    "navContact": "Kontakt"
+    "navContact": "Kontakt",
+    "langPolish": "Polski",
+    "langEnglish": "Angielski"
   },
   "HeroSection": {
     "mainTitle": "Transport Krajowy i Zagraniczny",
@@ -65,6 +67,28 @@
   "ContactSection": {
     "infoTitle": "Informacje kontaktowe",
     "formTitle": "Napisz do nas"
+  },
+  "WhyUsSection": {
+    "title": "Dlaczego Warto Nas Wybrać?",
+    "p1Title": "Terminowość",
+    "p1Desc": "Zawsze na czas. Szanujemy Twój harmonogram i dbamy o punktualne dostawy.",
+    "p2Title": "Doświadczenie",
+    "p2Desc": "Wieloletnia praktyka w transporcie krajowym i międzynarodowym to gwarancja profesjonalizmu.",
+    "p3Title": "Elastyczność",
+    "p3Desc": "Realizujemy transport własnym taborem (ciągnik + naczepa) lub na sprzęcie powierzonym przez klienta.",
+    "p4Title": "Bezpieczeństwo",
+    "p4Desc": "Dbamy o powierzony ładunek na każdym etapie transportu, zapewniając jego pełne bezpieczeństwo."
+  },
+  "FaqSection": {
+    "title": "Często Zadawane Pytania (FAQ)",
+    "q1": "Jaki jest zasięg Państwa usług?",
+    "a1": "Świadczymy usługi transportowe na terenie całej Polski oraz wszystkich krajów Unii Europejskiej.",
+    "q2": "Jakie ładunki możecie Państwo przewieźć?",
+    "a2": "Specjalizujemy się w transporcie towarów na naczepie typu firanka (plandeka). W celu omówienia szczegółów nietypowych ładunków, prosimy o kontakt.",
+    "q3": "Czy możliwy jest transport na moim sprzęcie?",
+    "a3": "Tak, jesteśmy otwarci na współpracę i realizujemy zlecenia również na sprzęcie powierzonym przez klienta.",
+    "q4": "Jak uzyskać wycenę transportu?",
+    "a4": "Najszybciej uzyskasz wycenę kontaktując się z nami telefonicznie lub poprzez formularz kontaktowy. Prosimy o podanie szczegółów trasy (miejsca załadunku i rozładunku) oraz specyfiki ładunku."
   },
   "ContactForm": {
     "title": "Formularz kontaktowy",
